@@ -72,7 +72,7 @@ const UserDashboard = () => {
                     </option>
                   ))}
                 </select>
-              </li>
+              </li><br></br>
               <li>
               {/* Second Dropdown */}
               <select className="dropdown-button" value={selectedVideos[selectedSubject] || ''} onChange={(e) => handleVideoSelect(e.target.value, selectedSubject)}>
@@ -84,7 +84,7 @@ const UserDashboard = () => {
                 ))}
               </select>
               </li>
-              <li>
+              <li><br></br>
               {/* Third Dropdown */}
               <select className="dropdown-button" value={selectedVideos[selectedSubject] || ''} onChange={(e) => handleVideoSelect(e.target.value, selectedSubject)}>
                 <option value="">Select a video</option>
