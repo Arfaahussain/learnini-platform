@@ -1,1 +1,1 @@
-# learnini-platform
+# learninig-platform
