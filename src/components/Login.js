@@ -12,7 +12,7 @@ const Login = () => {
     // For simplicity, I'll just redirect based on hard-coded values
     if (email === 'student@kletech.ac.in') {
       navigate('/user-dashboard');
-    } else if (email === 'staff@kletech.ac.in') {
+    } else if (email === 'admin@kletech.ac.in') {
       navigate('/admin-dashboard');
     } else {
       alert('Invalid email!');
